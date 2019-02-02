@@ -42,7 +42,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let freeCell = tableView.dequeueReusableCell(withIdentifier: "TechCell")
-        
+         
         var keys = [String]()
         for aKey in courses.keys {
             print(aKey)
